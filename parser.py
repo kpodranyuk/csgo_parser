@@ -132,8 +132,6 @@ def csmoney_market(cs_money_comission):
 
     money_value = re.findall(money_pattern, money_webpage)
 
-    print('TEST = ', float(money_value[1]))
-
     convert_value_item = float(money_value[1])
 
     for price_element in price:
